@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity {
 
         setSearchEnabled(true);
 
-        // Hide ImageView until an image is available
+        // Hide until an image/pronunciation is available
         wordImage.setVisibility(GONE);
-        wordPronunciation.setVisibility(VISIBLE);
+        wordPronunciation.setVisibility(GONE);
 
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
